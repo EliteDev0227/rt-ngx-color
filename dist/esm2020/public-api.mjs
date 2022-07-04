@@ -1,0 +1,6 @@
+/*
+ * Public API Surface of new-rt-ngx-color
+ */
+export * from './lib/rt-ngx-color.component';
+export * from './lib/rt-ngx-color.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3Byb2plY3RzL3J0LW5neC1jb2xvci9zcmMvcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7R0FFRztBQUVILGNBQWMsOEJBQThCLENBQUM7QUFDN0MsY0FBYywyQkFBMkIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgbmV3LXJ0LW5neC1jb2xvclxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL3J0LW5neC1jb2xvci5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvcnQtbmd4LWNvbG9yLm1vZHVsZSc7XG4iXX0=
