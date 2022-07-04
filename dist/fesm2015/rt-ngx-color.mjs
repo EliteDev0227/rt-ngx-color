@@ -12,34 +12,26 @@ class RtNgxColorComponent {
         console.log($event.color);
     }
 }
-RtNgxColorComponent.ɵfac = function RtNgxColorComponent_Factory(t) { return new (t || RtNgxColorComponent)(); };
-RtNgxColorComponent.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: RtNgxColorComponent, selectors: [["rt-ngx-color"]], decls: 1, vars: 0, consts: [[2, "display", "flex", "width", "300px", 3, "onChange"]], template: function RtNgxColorComponent_Template(rf, ctx) {
-        if (rf & 1) {
-            i0.ɵɵelementStart(0, "color-sketch", 0);
-            i0.ɵɵlistener("onChange", function RtNgxColorComponent_Template_color_sketch_onChange_0_listener($event) { return ctx.handleChange($event); });
-            i0.ɵɵelementEnd();
-        }
-    }, directives: [i1.SketchComponent], encapsulation: 2 });
-(function () {
-    (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(RtNgxColorComponent, [{
+RtNgxColorComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: RtNgxColorComponent, deps: [], target: i0.ɵɵFactoryTarget.Component });
+RtNgxColorComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.3.11", type: RtNgxColorComponent, selector: "rt-ngx-color", ngImport: i0, template: '<color-sketch style="display:flex; width:300px" (onChange)="handleChange($event)"></color-sketch>', isInline: true, components: [{ type: i1.SketchComponent, selector: "color-sketch", inputs: ["disableAlpha", "presetColors", "width"] }] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: RtNgxColorComponent, decorators: [{
             type: Component,
             args: [{
                     selector: 'rt-ngx-color',
                     template: '<color-sketch style="display:flex; width:300px" (onChange)="handleChange($event)"></color-sketch>'
                 }]
-        }], null, null);
-})();
+        }] });
 
 class RtNgxColorModule {
 }
-RtNgxColorModule.ɵfac = function RtNgxColorModule_Factory(t) { return new (t || RtNgxColorModule)(); };
-RtNgxColorModule.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: RtNgxColorModule });
-RtNgxColorModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [[
+RtNgxColorModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: RtNgxColorModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+RtNgxColorModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: RtNgxColorModule, declarations: [RtNgxColorComponent], imports: [CommonModule,
+        ColorSketchModule], exports: [RtNgxColorComponent] });
+RtNgxColorModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: RtNgxColorModule, imports: [[
             CommonModule,
             ColorSketchModule
         ]] });
-(function () {
-    (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(RtNgxColorModule, [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.11", ngImport: i0, type: RtNgxColorModule, decorators: [{
             type: NgModule,
             args: [{
                     declarations: [
@@ -53,12 +45,7 @@ RtNgxColorModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [[
                         RtNgxColorComponent
                     ]
                 }]
-        }], null, null);
-})();
-(function () {
-    (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(RtNgxColorModule, { declarations: [RtNgxColorComponent], imports: [CommonModule,
-            ColorSketchModule], exports: [RtNgxColorComponent] });
-})();
+        }] });
 
 /*
  * Public API Surface of new-rt-ngx-color
